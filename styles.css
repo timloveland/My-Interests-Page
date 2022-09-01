@@ -1,0 +1,101 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-right: 3px solid gray;
+}
+
+main {
+  margin-left: 250px;
+  padding: 10px 25px;
+  width: 70%;
+  overflow: hidden;
+}
+
+nav > header > ul > li {
+  list-style-type: none;
+  padding: 15px;
+  padding-left: 92px;
+}
+
+nav h1 {
+  text-align: center;
+}
+
+nav ul {
+  border-top: 1px solid gray;
+  margin-left: -10px;
+}
+
+.list {
+  border-bottom: 1px solid gray;
+  margin-left: -25px;
+  margin-right: -8px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 28px;
+  color: #131313;
+}
+
+nav > header > ul > li > a {
+  text-decoration: none;
+  color: #4a4a49;
+}
+
+p {
+  color: #4a4a49;
+  padding-left: 15px;
+}
+
+ul, li {
+  color: #4a4a49;
+  padding: 6px;
+  margin-left: 15px;
+}
+
+ul:last-of-type, li:last-of-type {
+  margin-bottom: -4px;
+}
+
+ul:first-of-type {
+  margin-top: -8px;
+}
+
+#list-two {
+  margin-left: 35px;
+}
+
+#cymbals {
+  padding-top: 15px;
+}
+
+code {
+  color: #4a4a49;
+  font-size: 14px;
+  margin-left: 25px;
+  margin-top: -20px;
+  font-family: anonymous;
+}
+
+#contact {
+  margin-bottom: 75px;
+}

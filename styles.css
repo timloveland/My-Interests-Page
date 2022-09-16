@@ -99,3 +99,31 @@ code {
 #contact {
   margin-bottom: 75px;
 }
+
+@media (max-width: 600px) {
+  nav {
+    position: relative;
+    right: 25%;
+    left: 15%;
+    height: 315px;
+    border: none;
+  }
+
+  nav h1 {
+    margin-left: -25px;
+  }
+
+
+
+  main {
+    margin: auto;
+    margin-top: 225px;
+    width: 100%;
+  }
+
+  main h1 {
+    text-align: center;
+  }
+
+  
+}
